@@ -1,0 +1,110 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    direction: rtl; /* Set direction to right-to-left */
+}
+
+.header-container {
+    background-image: url('https://img.freepik.com/free-vector/wild-fun-animal-paw-print-pattern-background-design-vector_1017-47618.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: flex-start; /* Align items from the left */
+    align-items: center;
+}
+/* Header container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo {
+    width: 180px; /* Move the logo to the right */
+}
+
+.header-info nav ul {
+    list-style: none;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Distribute items evenly */
+}
+
+.header-info nav ul li {
+    display: inline; /* Display list items inline */
+}
+
+.header-info nav ul li a {
+    color: #050c56;
+    text-decoration: none;
+    margin-left: 20px; /* Add margin between the links */
+}
+
+
+
+.about-image {
+    display: flex;
+    width: 910px; /* Set the width */
+    height: auto; /* Automatically adjust height to maintain aspect ratio */
+    max-height: 550px; /* Set maximum height */
+}
+
+
+
+.service-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.service-images img,
+
+/* Additional CSS for specific images */
+.about-image:nth-of-type(1) {
+    display: flex;
+    justify-content: space-between;
+    height: 190px; /* Set specific height for the first image */
+}
+
+.about-image:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    height: 190px; /* Set specific height for the second image */
+}
+
+.about-image:nth-of-type(3) {
+    display: flex;
+    justify-content: space-between;
+    height: 190px; /* Set specific height for the third image */
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+    text-align: justify; /* Set text alignment to justify */
+    direction: ltr; /* Set direction to left-to-right */
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0; 
+}
